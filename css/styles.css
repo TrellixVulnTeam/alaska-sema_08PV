@@ -1,0 +1,120 @@
+/*link google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500&display=swap');
+
+@media (min-width:768px) {
+    .contenedor{
+        grid-template-columns: 30vw 70vw;
+        grid-template-rows: auto;
+    }
+}
+
+body{
+    background-image: url(../assets/img/imagen-index2.jpg);
+    background-attachment: fixed;
+}
+
+body{
+    /*display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pie"
+    "main"
+    "img";*/
+}
+
+html{
+    font-size:62.5%;
+}
+
+
+h1{
+    display: flex;
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(74, 164, 248);
+    font-family: 'Fascinate Inline', cursive;
+    justify-content: center;
+}
+
+.BarraHamburguesa{
+    font-size: 3rem;
+}
+
+/*NavBar*/
+
+nav ul{
+    list-style: none;
+    background-color: rgb(127, 197, 255, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    margin: 0 20px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+/*quienes somos*/
+
+h2,
+p{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(74, 164, 248);
+    margin-top: 30px;
+}
+
+/*css camperas*/
+
+.imagenes{
+    width: 80%;
+    /*padding: 30px;
+    margin: 0 20px;*/
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: rgb(239, 3, 3);
+    font-size: 6rem;
+}
+
+
+/*.imagenes{
+    padding: 30px;
+    margin: 0 20px
+}*/
+
+.redes{
+    grid-area: pie;
+    background-color: rgb(127, 197, 255, 0.7);
+    font-size: 3rem;
+    padding: 5rem;
+}
+
+
+.filtros{
+    font-size: 3rem;
+    background-color: rgb(127, 197, 255, 0.7);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 3rem;
+}
+
+.contenedor{
+    grid-area: img;
+    display: grid;
+    /*grid-template-columns: 30% 70%;*/
+}
+
+.contenedor{
+    grid-area: main;
+}
