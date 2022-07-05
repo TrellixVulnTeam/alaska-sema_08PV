@@ -92,6 +92,10 @@ p{
     transition: transform 1.5s;
 }
 
+.busqueda{
+    text-decoration: none;
+}
+
 
 .logo{
     color: rgb(239, 3, 3);
@@ -130,3 +134,4 @@ p{
 .contenedor{
     grid-area: main;
 }
+
